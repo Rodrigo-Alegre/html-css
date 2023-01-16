@@ -259,9 +259,10 @@ input {
 }
 
 .linha-rodape{
-    margin-top: 5px;
+    margin-top: 80px;
     border-top: 0.1px solid #ffffff;
     filter: opacity(30%);
+    padding-bottom: 100px;
 }
 
 .rodape{
@@ -269,7 +270,7 @@ input {
     flex-direction: row-reverse;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 1px;
     max-width: 1080px;
     margin: 0 auto;
     font-family: poppins;
