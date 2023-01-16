@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+EM HTML "ID" É IDENTIFICADO NO CSS COM "#" RESHTAG
+#=ID
+
+EM HTML "CLASS" É IDENTIFICADO NO CSS COM O "." PONTO
+.=CLASS
+
+:=PSEUDO CLASS
+*/
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkblue;
+}
+
+h1#principal{ /* NÃO É NECESSÁRIO INFORMAR O IDENTIFICADOR H1 OU OUTROS, BASTA INFORMA A #NOMEDAID QUE FOI ADICIONADA NO HTML*/
+    text-align: center;
+    background-color: darkcyan;
+}
+
+h2{
+    color: rgb(0, 0, 243);
+}
+
+.basico{
+    color: darkorchid;
+}
+
+.intermediario{
+    color: rgb(1, 179, 16);
+}
+
+.avancado{
+    color: rgb(216, 0, 0);
+}
+
+.destaque{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(184, 12, 0);
+    background-color: gold;
+}

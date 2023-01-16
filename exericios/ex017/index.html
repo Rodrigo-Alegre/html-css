@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: helvetica;
+            /* QUANDO A FONTE TIVER NOME COMPOSTO, LEMBRAR DE COLOCAR ENTRE ASPAS
+            SEMPRE TRABALHAR COM FAMILIAS DE FONTES PARA COMBINAÇOES SEGURAS*/
+
+            /*
+            RECOMENDAÇÕES DA W3C PARA USO DE UNIDADES DE MEDIDAS PARA FONTES PX e, EM
+
+            MEDIDAS ABSOLUTAS
+            cm, mm, in, px, pt=ponto, pq=paica
+
+            MEDIDAS RELATIVAS
+            em=relativo ao M maiusculo
+            ex=relativo a letra X das fontes
+            rem=root fonte configurada no body
+            vw= View porte
+            tela do monitor
+            vh
+            %.
+            
+            */
+        }
+
+        h1, h2 {
+            /* font-size: 1em;
+            /*16PX OU 1EM É O TAMANHO PADRÃO DA FONTE USADA PELOS NAVEGADORES
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline; */
+
+            /* SHORTHAND FONT - DIZER VÁRIAS COISAS EM UMA ÚNICA LINHA
+            ORDEM DA SHORTHAND: font-style: font-weight: font-size: font-family:;
+            */
+            font: italic bolder 3em "work sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore ipsa, quis ipsum incidunt qui
+        exercitationem eius nam, non culpa eaque. Vel, accusantium? Fuga, ut. Necessitatibus consequuntur perferendis
+        suscipit provident.</p>
+
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit optio excepturi eveniet voluptas magni
+        aliquid. Vitae ratione magni tenetur soluta tempora, nam, dolorem a quidem odit obcaecati tempore eum eveniet.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium hic facere maxime reprehenderit fuga aut
+        blanditiis. Ut maxime cupiditate quam? Veniam autem magnam laboriosam, soluta placeat facilis neque perferendis!
+    </p>
+</body>
+
+</html>
